@@ -1,7 +1,7 @@
 import { createClient } from "@sanity/client";
 
 export const client = createClient({
-  projectId: "njnptjj2",
+  projectId: "e4jbkkar",
   dataset: "production",
   apiVersion: "v2025-03-24",
   useCdn: true,
@@ -10,16 +10,12 @@ export const client = createClient({
 /*
 
 sette opp en for å skrive til klient
-
-
-
 */
-
 export const writeClient = createClient({
-  projectId: "njnptjj2",
+  projectId: "e4jbkkar",
   dataset: "production",
   apiVersion: "v2025-03-24",
   useCdn: true,
   token:
-    "skj3eXAKRZlY8KkZmXJgIPb97XgSS47Re3rSKZGEdXdkCf8MpkNZxZ0U7s0Gd6niJ52v0ZaLR2VXBbtl67N7IXqmFKQh9cmCgpX7LRwjLDWauxDugJUhjEATMBQiElz2NUwqVIVPK1SJwyRXxx1WtEK1Kda2J2JKCeUfWE0vZSBJBoSws5ac",
+    "skkQTr911k1lBVf8BQTjrFFixBRDfiTZRYEvueoVEj7ZeoeYsBgn0ThfiYvnYSmMoD9agIelAapYRA5oL2jRD8pDphKdeY4D56p5QEHoLawx0jiTu9tF60oR2x7XlEkOGV9a29sd0SvO7rJsdBFWKUfEGYy2kqlHMm5fevsXE9t7Yogct8u2",
 });
